@@ -1,0 +1,11 @@
+version: '3'
+services:
+  nextjs:
+    build: .
+    ports:
+      - "3567:3567"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=production

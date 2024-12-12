@@ -1,0 +1,843 @@
+[
+    {
+      "moduleId": 1,
+      "moduleQuestions": [
+        {
+          "questionText": "Укажите ваши данные",
+          "subQuestions": [
+            {
+              "subQuestionType": "Height",
+              "subQuestionText": "Укажите свой рост",
+              "answers": []
+            },
+            {
+              "subQuestionType": "Weight",
+              "subQuestionText": "Укажите свой вес",
+              "answers": []
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте вариант, подходящий вам больше всего",
+          "subQuestions": [
+            {
+              "subQuestionText": "Укажите ваше образование",
+              "subQuestionType": "SingleChoice",
+              "answers": [
+                {
+                  "answerId": 1,
+                  "answerText": "Имею ученую степень"
+                },
+                {
+                  "answerId": 2,
+                  "answerText": "Высшее"
+                },
+                {
+                  "answerId": 3,
+                  "answerText": "Средне-специальное"
+                },
+                {
+                  "answerId": 4,
+                  "answerText": "Среднее"
+                },
+                {
+                  "answerId": 5,
+                  "answerText": "Менее 4 классов"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте все варианты, подходящие вам больше всего",
+          "subQuestions": [
+            {
+              "subQuestionText": "Образ жизни",
+              "subQuestionType": "MultipleChoice",
+              "answers": [
+                {
+                  "answerId": 6,
+                  "answerText": "Курение"
+                },
+                {
+                  "answerId": 7,
+                  "answerText": "Малоподвижный образ жизни (отсутствие физических упражнений)"
+                },
+                {
+                  "answerId": 8,
+                  "answerText": "Малообщительность или изоляция в последнее время"
+                },
+                {
+                  "answerId": 9,
+                  "answerText": "Нарушения сна"
+                },
+                {
+                  "answerId": 10,
+                  "answerText": "Употребление алкоголя более 21 единицы в неделю (пива 4% около 5 литров, вина около 1,6 л, водки/виски/коньяка около 0,5л)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте вариант, подходящий вам больше всего",
+          "subQuestions": [
+            {
+              "subQuestionText": "Ваше артериальное давление",
+              "subQuestionType": "SingleChoice",
+              "answers": [
+                {
+                  "answerId": 11,
+                  "answerText": "100/70 мм рт.ст. и ниже"
+                },
+                {
+                  "answerId": 12,
+                  "answerText": "110/70 - 120/80"
+                },
+                {
+                  "answerId": 13,
+                  "answerText": "130/80 и выше"
+                },
+                {
+                  "answerId": 14,
+                  "answerText": "Не знаю"
+                },
+                {
+                  "answerId": 15,
+                  "answerText": "Раньше повышлалось, а последние месяцы/годы не повышается"
+                }
+              ]
+            },
+            {
+              "subQuestionText": "Принимаете ли вы лекарства для снижения давления?",
+              "subQuestionType": "SingleChoice",
+              "answers": [
+                {
+                  "answerId": 16,
+                  "answerText": "Да, постоянно"
+                },
+                {
+                  "answerId": 17,
+                  "answerText": "Нет"
+                },
+                {
+                  "answerId": 18,
+                  "answerText": "Только при повышении давления"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте все подходящие вам варианты",
+          "subQuestions": [
+            {
+              "subQuestionText": "Есть ли у вас снижение слуха?",
+              "subQuestionType": "SingleChoice",
+              "answers": [
+                {
+                  "answerId": 19,
+                  "answerText": "Да, ношу слуховой аппарат"
+                },
+                {
+                  "answerId": 20,
+                  "answerText": "Да, слуховой аппарат не ношу"
+                },
+                {
+                  "answerId": 21,
+                  "answerText": "Нет"
+                }
+              ]
+            },
+            {
+              "subQuestionText": "Есть ли у вас сахарный диабет?",
+              "subQuestionType": "SingleChoice",
+              "answers": [
+                {
+                  "answerId": 22,
+                  "answerText": "Да, принимаю соответствующие лекарства"
+                },
+                {
+                  "answerId": 23,
+                  "answerText": "Да, лекарства не принимаю"
+                },
+                {
+                  "answerId": 24,
+                  "answerText": "Нет"
+                }
+              ]
+            },
+            {
+              "subQuestionText": "Другие хронические состояния?",
+              "subQuestionType": "MultipleChoice",
+              "answers": [
+                {
+                  "answerId": 25,
+                  "answerText": "Снижение зрения"
+                },
+                {
+                  "answerId": 26,
+                  "answerText": "Подавленное настроение, депрессия"
+                },
+                {
+                  "answerId": 27,
+                  "answerText": "Нарушения сердечного ритма"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте все подходящие вам варианты",
+          "subQuestions": [
+            {
+              "subQuestionText": "Окружающая среда и ранее перенесенные состояния",
+              "subQuestionType": "MultipleChoice",
+              "answers": [
+                {
+                  "answerId": 28,
+                  "answerText": "Проживание в регионе с высоким уровнем загрязнения воздуха"
+                },
+                {
+                  "answerId": 29,
+                  "answerText": "Есть близкие родственники, у которых выявили с нижение памяти во второй половине жизни"
+                },
+                {
+                  "answerId": 30,
+                  "answerText": "Были положительные результаты генетических анализов на деменцию"
+                },
+                {
+                  "answerId": 31,
+                  "answerText": "Черепно-мозговые травмы"
+                },
+                {
+                  "answerId": 32,
+                  "answerText": "Хирургические операции после 50 лет"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте все подходящие вам варианты",
+          "subQuestions": [
+            {
+              "subQuestionText": "Употребление психоактивных веществ",
+              "subQuestionType": "MultipleChoice",
+              "answers": [
+                {
+                  "answerId": 33,
+                  "answerText": "Нет"
+                },
+                {
+                  "answerId": 34,
+                  "answerText": "Снотворные"
+                },
+                {
+                  "answerId": 35,
+                  "answerText": "Транквилизаторы"
+                },
+                {
+                  "answerId": 36,
+                  "answerText": "Наркотики"
+                },
+                {
+                  "answerId": 37,
+                  "answerText": "Другое"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте все подходящие вам варианты",
+          "subQuestions": [
+            {
+              "subQuestionText": "Другие состояния",
+              "subQuestionType": "MultipleChoice",
+              "answers": [
+                {
+                  "answerId": 38,
+                  "answerText": "Заболевания щитовидной железы"
+                },
+                {
+                  "answerId": 39,
+                  "answerText": "Болезни головного мозга (эпилепсия, рассеянный склероз и т.д)"
+                },
+                {
+                  "answerId": 40,
+                  "answerText": "Храп или остановка дыхания во сне (апноэ)"
+                },
+                {
+                  "answerId": 41,
+                  "answerText": "Потеря веса без особых причин"
+                },
+                {
+                  "answerId": 42,
+                  "answerText": "Ничего из этого"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте все подходящие вам варианты",
+          "subQuestions": [
+            {
+              "subQuestionText": "Хронические воспалительные заболевания",
+              "subQuestionType": "MultipleChoice",
+              "answers": [
+                {
+                  "answerId": 43,
+                  "answerText": "Болезнь почек"
+                },
+                {
+                  "answerId": 44,
+                  "answerText": "Болезнь суставов"
+                },
+                {
+                  "answerId": 45,
+                  "answerText": "Болезнь печени"
+                },
+                {
+                  "answerId": 46,
+                  "answerText": "Болезнь кишечника"
+                },
+                {
+                  "answerId": 47,
+                  "answerText": "Болезнь полости рта"
+                },
+                {
+                  "answerId": 48,
+                  "answerText": "Ничего из этого"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": 2,
+      "moduleQuestions": [
+        {
+          "questionText": "Отметьте ответы, характерные для вас больше всего",
+          "subQuestions": [
+            {
+              "subQuestionText": "Забывчивость на текущие события",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 49,
+                  "answerText": "Нет"
+                },
+                {
+                  "answerId": 50,
+                  "answerText": null
+                },
+                {
+                  "answerId": 51,
+                  "answerText": null
+                },
+                {
+                  "answerId": 52,
+                  "answerText": null
+                },
+                {
+                  "answerId": 53,
+                  "answerText": "Забывается всё происходящее"
+                }
+              ]
+            },
+            {
+              "subQuestionText": "Повторение одних и тех же рассказов",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 54,
+                  "answerText": "Нет"
+                },
+                {
+                  "answerId": 55,
+                  "answerText": null
+                },
+                {
+                  "answerId": 56,
+                  "answerText": null
+                },
+                {
+                  "answerId": 57,
+                  "answerText": null
+                },
+                {
+                  "answerId": 58,
+                  "answerText": "Постоянно, ежедневно"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте ответ, характерный для вас больше всего",
+          "subQuestions": [
+            {
+              "subQuestionText": "Трудности с выполнением знакомых задач",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 59,
+                  "answerText": "Легко осваиваю новое и использую старый опыт"
+                },
+                {
+                  "answerId": 60,
+                  "answerText": null
+                },
+                {
+                  "answerId": 61,
+                  "answerText": null
+                },
+                {
+                  "answerId": 62,
+                  "answerText": null
+                },
+                {
+                  "answerId": 63,
+                  "answerText": "Полная утрата или грубое снижение всех навыков"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте ответ, характерный для вас больше всего",
+          "subQuestions": [
+            {
+              "subQuestionText": "Трудно подобрать слова",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 64,
+                  "answerText": "нет"
+                },
+                {
+                  "answerId": 65,
+                  "answerText": null
+                },
+                {
+                  "answerId": 66,
+                  "answerText": null
+                },
+                {
+                  "answerId": 67,
+                  "answerText": null
+                },
+                {
+                  "answerId": 68,
+                  "answerText": "Утрата словарного запаса"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте ответы, характерные для вас больше всего",
+          "subQuestions": [
+            {
+              "subQuestionText": "Трудно назвать свой возраст, профессию и другие данные о себе",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 69,
+                  "answerText": "Нет"
+                },
+                {
+                  "answerId": 70,
+                  "answerText": null
+                },
+                {
+                  "answerId": 71,
+                  "answerText": null
+                },
+                {
+                  "answerId": 72,
+                  "answerText": null
+                },
+                {
+                  "answerId": 73,
+                  "answerText": "Утрата знаний о себе"
+                }
+              ]
+            },
+            {
+              "subQuestionText": "Трудно ориентироваться на местности",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 74,
+                  "answerText": "Нет"
+                },
+                {
+                  "answerId": 75,
+                  "answerText": null
+                },
+                {
+                  "answerId": 76,
+                  "answerText": null
+                },
+                {
+                  "answerId": 77,
+                  "answerText": null
+                },
+                {
+                  "answerId": 78,
+                  "answerText": "Нет ориентировки даже в своем доме"
+                }
+              ]
+            },
+            {
+              "subQuestionText": "Трудно ориентироваться во времени (не знает текущий год, время года, месяц)",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 79,
+                  "answerText": "Нет"
+                },
+                {
+                  "answerId": 80,
+                  "answerText": null
+                },
+                {
+                  "answerId": 81,
+                  "answerText": null
+                },
+                {
+                  "answerId": 82,
+                  "answerText": null
+                },
+                {
+                  "answerId": 83,
+                  "answerText": "Полная утрата текущей даты, хронологии событий"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте ответы, характерные для вас больше всего",
+          "subQuestions": [
+            {
+              "subQuestionText": "Сложности с планами и действиями",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 84,
+                  "answerText": "нет"
+                },
+                {
+                  "answerId": 85,
+                  "answerText": null
+                },
+                {
+                  "answerId": 86,
+                  "answerText": null
+                },
+                {
+                  "answerId": 87,
+                  "answerText": null
+                },
+                {
+                  "answerId": 88,
+                  "answerText": "Утрата бытовых навыков (готовка еды, уборка и т.п)"
+                }
+              ]
+            },
+            {
+              "subQuestionText": "Сложнее понимать и выполнять инструкции (устные/письменные)",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 89,
+                  "answerText": "нет"
+                },
+                {
+                  "answerId": 90,
+                  "answerText": null
+                },
+                {
+                  "answerId": 91,
+                  "answerText": null
+                },
+                {
+                  "answerId": 92,
+                  "answerText": null
+                },
+                {
+                  "answerId": 93,
+                  "answerText": "Утрата понимания речи"
+                }
+              ]
+            },
+            {
+              "subQuestionText": "Странности в поведении",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 94,
+                  "answerText": "нет"
+                },
+                {
+                  "answerId": 95,
+                  "answerText": null
+                },
+                {
+                  "answerId": 96,
+                  "answerText": null
+                },
+                {
+                  "answerId": 97,
+                  "answerText": null
+                },
+                {
+                  "answerId": 98,
+                  "answerText": "Необоснованные идеи ущерба, ревности, отравления и прочее"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте ответы, характерные для вас больше всего",
+          "subQuestions": [
+            {
+              "subQuestionText": "Трудно сконцентрироваться/сосредоточиться",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 99,
+                  "answerText": "нет"
+                },
+                {
+                  "answerId": 100,
+                  "answerText": null
+                },
+                {
+                  "answerId": 101,
+                  "answerText": null
+                },
+                {
+                  "answerId": 102,
+                  "answerText": null
+                },
+                {
+                  "answerId": 103,
+                  "answerText": "Отсутствие концентрации и внимания"
+                }
+              ]
+            },
+            {
+              "subQuestionText": "Трудно спланировать и организовать выход в гости, театр и прочее",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 104,
+                  "answerText": "нет"
+                },
+                {
+                  "answerId": 105,
+                  "answerText": null
+                },
+                {
+                  "answerId": 106,
+                  "answerText": null
+                },
+                {
+                  "answerId": 107,
+                  "answerText": null
+                },
+                {
+                  "answerId": 108,
+                  "answerText": "Утрата понимания планирования ситуаций"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте ответ, характерный для вас больше всего",
+          "subQuestions": [
+            {
+              "subQuestionText": "Потеря вещей",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 109,
+                  "answerText": "нет"
+                },
+                {
+                  "answerId": 110,
+                  "answerText": null
+                },
+                {
+                  "answerId": 111,
+                  "answerText": null
+                },
+                {
+                  "answerId": 112,
+                  "answerText": null
+                },
+                {
+                  "answerId": 113,
+                  "answerText": "Теряются все вещи"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте ответы, характерные для вас больше всего",
+          "subQuestions": [
+            {
+              "subQuestionText": "Колебания настроения (раздражительность, плаксивость, обидчивость, злость, страхи или другое)",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 114,
+                  "answerText": "нет"
+                },
+                {
+                  "answerId": 115,
+                  "answerText": null
+                },
+                {
+                  "answerId": 116,
+                  "answerText": null
+                },
+                {
+                  "answerId": 117,
+                  "answerText": null
+                },
+                {
+                  "answerId": 118,
+                  "answerText": "Постоянно"
+                }
+              ]
+            },
+            {
+              "subQuestionText": "Пассивность и сонливость",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 119,
+                  "answerText": "нет"
+                },
+                {
+                  "answerId": 120,
+                  "answerText": null
+                },
+                {
+                  "answerId": 121,
+                  "answerText": null
+                },
+                {
+                  "answerId": 122,
+                  "answerText": null
+                },
+                {
+                  "answerId": 123,
+                  "answerText": "Отказ что-то сделать, сонливость"
+                }
+              ]
+            },
+            {
+              "subQuestionText": "Возбуждение и беспокойство",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 124,
+                  "answerText": "нет"
+                },
+                {
+                  "answerId": 125,
+                  "answerText": null
+                },
+                {
+                  "answerId": 126,
+                  "answerText": null
+                },
+                {
+                  "answerId": 127,
+                  "answerText": null
+                },
+                {
+                  "answerId": 128,
+                  "answerText": "Неусидчивость, постоянное движение"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте ответ, характерный для вас больше всего",
+          "subQuestions": [
+            {
+              "subQuestionText": "Нарушения восприятия пространства, окружающего мира",
+              "subQuestionType": "CircleChoice",
+              "answers": [
+                {
+                  "answerId": 129,
+                  "answerText": "нет"
+                },
+                {
+                  "answerId": 130,
+                  "answerText": null
+                },
+                {
+                  "answerId": 131,
+                  "answerText": null
+                },
+                {
+                  "answerId": 132,
+                  "answerText": null
+                },
+                {
+                  "answerId": 133,
+                  "answerText": "Неуклюжесть, разговор с отражением, галлюцинации"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Отметьте ответ, характерный для вас больше всего",
+          "subQuestions": [
+            {
+              "subQuestionText": "Как давно у вас начались эти проявления?",
+              "subQuestionType": "SingleChoice",
+              "answers": [
+                {
+                  "answerId": 134,
+                  "answerText": "Меньше месяца назад"
+                },
+                {
+                  "answerId": 135,
+                  "answerText": "Полгода назад"
+                },
+                {
+                  "answerId": 136,
+                  "answerText": "Больше чем год назад"
+                },
+                {
+                  "answerId": 137,
+                  "answerText": "Более 5 лет назад"
+                },
+                {
+                  "answerId": 138,
+                  "answerText": "Не знаю"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]

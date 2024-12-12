@@ -1,0 +1,13 @@
+fastapi~=0.111.0
+psycopg2-binary
+alembic~=1.13.1
+python-dotenv~=1.0.1
+SQLAlchemy~=2.0.31
+openai~=1.35.12
+gunicorn~=22.0.0
+pydantic~=2.9.2
+PyJWT~=2.9.0
+starlette~=0.37.2
+torch~=2.3.1
+pillow~=10.3.0
+transformers~=4.41.2
